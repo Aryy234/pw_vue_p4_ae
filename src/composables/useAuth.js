@@ -38,7 +38,7 @@ export function useAuth() {
       role.value = response.role
       user.value = username
 
-      router.push('/')
+      router.push('/vehiculos')
       return true
     } catch (err) {
       error.value = err.message

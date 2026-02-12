@@ -4,12 +4,7 @@ import axios from 'axios'
 
 
 export const authorizationClient = {
-  /**
-   * Obtiene token de autenticación
-   * @param {string} user - Nombre de usuario
-   * @param {string} password - Contraseña
-   * @returns {Promise<{accessToken: string, expiresAt: number, role: string}>}
-   */
+
   async getToken(user, password) {
     const url = `${AUTH_BASE_URL}/auth/token?user=${encodeURIComponent(user)}&password=${encodeURIComponent(password)}`
     try {

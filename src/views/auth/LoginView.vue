@@ -9,7 +9,7 @@
       <input v-model="password" type="password" required />
       
       <label>Rol</label>
-      <input v-model="rol" type="text" required />
+      <input v-model="rol" type="text" readonly />
       
       <label>Token</label>
       <textarea v-model="token" rows="3" readonly></textarea>
@@ -32,7 +32,10 @@ const token = ref('')
 
 const handleLogin = async () => {
   const success = await login(username.value, password.value)
-  if (success) token.value = localStorage.getItem('token') || ''
+  if (success) {
+    token.value = localStorage.getItem('auth_token') || ''
+    rol.value = localStorage.getItem('user_role') || ''
+  }
 }
 </script>
 
