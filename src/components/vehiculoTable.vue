@@ -42,34 +42,9 @@ const formatDate = (date) => {
 </script>
 
 <style scoped>
-.vehiculo-table {
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 10px;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  border: 1px solid #ddd;
-}
-
-th {
-  padding: 10px;
-  text-align: left;
-  border: 1px solid #ddd;
-  color: #000;
-}
-
-td {
-  padding: 10px;
-  border: 1px solid #ddd;
-  color: #000;
-}
-
-.no-data {
-  text-align: center;
-  padding: 20px;
-  color: #000;
-}
+.vehiculo-table { max-width: 900px; margin: 20px auto; }
+table { width: 100%; border-collapse: collapse; border: 1px solid #ddd; }
+th, td { padding: 10px; border: 1px solid #ddd; color: #000; }
+th { text-align: left; }
+.no-data { text-align: center; padding: 20px; color: #000; }
 </style>

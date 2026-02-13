@@ -24,7 +24,7 @@ const router = createRouter({
       path: '/vehiculos/crear',
       name: 'vehiculos-crear',
       component: () => import('../views/VehiculoCreateView.vue'),
-      meta: { requiresAuth: true },
+      meta: { requiresAuth: true }, 
     },
   ],
 })

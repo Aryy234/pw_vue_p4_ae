@@ -32,45 +32,11 @@ const handleCreateVehiculo = async (vehiculoData) => {
 </script>
 
 <style scoped>
-.container {
-  padding: 20px;
-}
-
-.nav-links {
-  max-width: 900px;
-  margin: 0 auto 20px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav-links a {
-  color: #0099dd;
-  text-decoration: none;
-}
-
-.btn-logout {
-  padding: 8px 15px;
-  background: #e53e3e;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.message {
-  max-width: 600px;
-  margin: 15px auto;
-  padding: 10px;
-  text-align: center;
-  color: #000;
-}
-
-.message.success {
-  background-color: #c6f6d5;
-  color: #22543d;
-}
-
-.message.error {
-  background-color: #fed7d7;
-  color: #742a2a;
-}
+.container { padding: 20px; }
+.nav-links { max-width: 900px; margin: 0 auto 20px; display: flex; justify-content: space-between; }
+.nav-links a { color: #0099dd; text-decoration: none; }
+.btn-logout { padding: 8px 15px; background: #e53e3e; color: white; border: none; cursor: pointer; }
+.message { max-width: 600px; margin: 15px auto; padding: 10px; text-align: center; }
+.message.success { background: #c6f6d5; color: #22543d; }
+.message.error { background: #fed7d7; color: #742a2a; }
 </style>

@@ -36,50 +36,12 @@ onMounted(() => {
 </script>
 
 <style scoped>
-.container {
-  padding: 20px;
-}
-
-.nav-links {
-  max-width: 900px;
-  margin: 0 auto 20px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav-links a {
-  color: #0099dd;
-  text-decoration: none;
-}
-
-.btn-logout {
-  padding: 8px 15px;
-  background: #e53e3e;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.content {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #000;
-}
-
-.loading,
-.error {
-  text-align: center;
-  padding: 20px;
-  color: #000;
-}
-
-.error {
-  color: #e53e3e;
-  background: #fed7d7;
-}
+.container { padding: 20px; }
+.nav-links { max-width: 900px; margin: 0 auto 20px; display: flex; justify-content: space-between; }
+.nav-links a { color: #0099dd; text-decoration: none; }
+.btn-logout { padding: 8px 15px; background: #e53e3e; color: white; border: none; cursor: pointer; }
+.content { max-width: 900px; margin: 0 auto; }
+h1 { text-align: center; color: #000; }
+.loading, .error { text-align: center; padding: 20px; color: #000; }
+.error { color: #e53e3e; background: #fed7d7; }
 </style>
